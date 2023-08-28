@@ -85,8 +85,6 @@ app.all('*', (req, res, next) => {
 app.use(globalErrorHandler);
 
 
-const duobrealsPath = require.resolve('duobrealsPath');
-console.log(duobrealsPath);
 
 
 module.exports = app;
