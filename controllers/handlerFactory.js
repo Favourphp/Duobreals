@@ -15,6 +15,7 @@ exports.deleteOne = (Model) =>
       data: null,
     });
   });
+  //comst
 
 exports.updateOne = (Model) =>
   catchAsync(async (req, res, next) => {
